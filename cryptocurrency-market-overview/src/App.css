@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+}
+
+body {
+    width: 100%;
+    max-width: 68rem;
+    margin: 0 auto;
+    font: 1.6rem/1.25 Arial, sans-serif;
+    /* font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif; */
+    /* background-color: #000000; */
+    background-image: url(./wallpaper4.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    /* overflow: scroll; */
+    resize: both;
+    color: #4d4d4d;
+}
+
+ul {
+  list-style: none;
+}
+
+.coinlist-image {
+  width: 50px;
+}
+
+.coinlist-item {
+  display: flex;
+}
+
+.coinsummary {
+  border-color: white !important;
+  border-style: outset !important;
+}
+
+.coin-data-category {
+  font-size: 10px;
+}
+
+.delete-icon {
+  display: none;
+  position: absolute;
+  right: 6px;
+}
+
+.coin:hover .delete-icon {
+  display: block;
+}
