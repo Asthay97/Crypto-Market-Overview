@@ -14,3 +14,9 @@ An application to add personalised coins and check their current market value. A
 3. To run the application on localhost use `npm start` command.
 
 - The application runs (in development mode) `http://localhost:3000` in the browser.
+
+### Screenshots for reference  
+ ![Screenshot from 2021-08-12 18-09-56](https://user-images.githubusercontent.com/75947851/129198321-e3f0bb4f-54eb-4d14-a870-bad03cf28c7c.png)
+ 
+![Screenshot from 2021-08-12 18-10-10](https://user-images.githubusercontent.com/75947851/129198416-e563fcb0-5e23-4d3e-ae13-af02cfefd542.png)
+
