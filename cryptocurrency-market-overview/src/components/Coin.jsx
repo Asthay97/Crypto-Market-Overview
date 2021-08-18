@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import './Coin.css';
 
 const Coin = ({ coin, deleteCoin }) => {
   return (
-    <Link to={`/coins/${coin.id}`} className="text-decoration-none my-1 coin">
+    <Link to={`/coins/${coin.id}`} className="coin__details">
       <li className="coinlist-item list-group-item list-group-item-action d-flex justify-content-between align-items-center text-dark">
         <img className="coinlist-image" src={coin.image} alt="" />
         <span className="text-decoration-none">{coin.current_price}</span>

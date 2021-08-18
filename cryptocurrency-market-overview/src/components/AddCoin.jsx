@@ -1,6 +1,7 @@
 import React, { useState, useContext } from "react";
 import { WatchListContext } from "../context/watchListContext";
 import coinGecko from "../apis/coinGecko";
+import './AddCoin.css';
 
 const AddCoin = () => {
   const [isActive, setIsActive] = useState(false);
@@ -41,11 +42,13 @@ const AddCoin = () => {
     <div className="dropdown">
       <button
         onClick={() => setIsActive(!isActive)}
-        className="btn btn-primary dropdown-toggle"
+        className="btn"
         type="button"
       >
         Add Coin
       </button>
+      <h3 className="center__heading">Currency(INR)</h3>
+      <h3 className="right__heading"> Down by %</h3>
       <div className={isActive ? "dropdown-menu show" : "dropdown-menu"}>
         {availableCoins.map((el) => {
           return (
